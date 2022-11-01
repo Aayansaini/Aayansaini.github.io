@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    background-color: #D89216;
+}
+
+/* CONTAINER CSS */
+
+.container-xxl {
+    height: 210vh;
+    display: flex;
+    color: #f9f9f9;
+    align-items: center;
+    background-color: #000000;
+}
+
+.container-lg {
+    height: 200vh;
+}
+
+#hi {
+    height: 30vh;
+    margin-top: 60px;
+}
+
+.container-md {
+    height: 150vh;
+}
+
+.container-md img {
+    height: 150px;
+    width: 150px;
+}
+
+.container-md h3 {
+    display: flex;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.container-md h2 {
+    margin-top: 30px;
+}
+
+/* BUTTON CODE */
+.container-md button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 50px;
+    color: #000000;
+    border-radius: 5px;
+    border: 1px solid #D89216;
+    background-color: #D89216;
+}
+
+.container-md button:hover {
+    color: #D89216;
+    transition: all 0.5s;
+    background-color: transparent;
+    border: 1px solid #D89216;
+}
+
+span {
+    color: #D89216;
+}
+
+.mail_btnn {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: #D89216;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: #000000;
+}
+
+.mail_btnn:hover {
+    color: #000000;
+    transition: all 0.5s;
+    border: 1px solid #000000;
+    background-color: transparent;
+}
