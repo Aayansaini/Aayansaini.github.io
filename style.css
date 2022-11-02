@@ -12,7 +12,7 @@
 /* CONTAINER CSS */
 
 .container-xxl {
-    height: 200vh;
+    height: 220vh;
     display: flex;
     color: #f9f9f9;
     /* align-items: center; */
@@ -94,7 +94,7 @@ span {
     height: 500vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     background-color: #000000;
 }
 .container-xl{
@@ -103,20 +103,21 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: brown; */
 }
 .container-xl img{
     padding: 30px;
 }
 .heading{
-    height: 80vh;
+    height: 45vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: blue; */
 }
 .heading h1{
-    font-size: 30px;
+    font-size: 20px;
+}
+.heading p{
+    font-size: 12px;
 }
