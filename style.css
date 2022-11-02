@@ -11,24 +11,25 @@
 /* CONTAINER CSS */
 
 .container-xxl {
-    height: 210vh;
+    height: 160vh;
     display: flex;
     color: #f9f9f9;
-    align-items: center;
+    /* align-items: center; */
     background-color: #000000;
 }
 
 .container-lg {
-    height: 200vh;
+    height: 160vh;
+    background-color: #000000;
 }
 
 #hi {
     height: 30vh;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .container-md {
-    height: 150vh;
+    height: 115vh;
 }
 
 .container-md img {
@@ -36,7 +37,7 @@
     width: 150px;
 }
 
-.container-md h3 {
+.container-md p {
     display: flex;
     margin-top: 30px;
     text-align: left;
@@ -47,10 +48,11 @@
 }
 
 /* BUTTON CODE */
+
 .container-md button {
     height: 50px;
-    width: 200px;
-    font-size: 20px;
+    width: 150px;
+    font-size: 15px;
     margin-top: 50px;
     color: #000000;
     border-radius: 5px;
