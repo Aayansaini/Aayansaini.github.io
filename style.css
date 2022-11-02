@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
+    color: #f9f9f9;
 }
 
 .navbar {
@@ -11,7 +12,7 @@
 /* CONTAINER CSS */
 
 .container-xxl {
-    height: 160vh;
+    height: 200vh;
     display: flex;
     color: #f9f9f9;
     /* align-items: center; */
@@ -19,13 +20,13 @@
 }
 
 .container-lg {
-    height: 160vh;
+    height: 200vh;
     background-color: #000000;
 }
 
 #hi {
     height: 30vh;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .container-md {
@@ -85,4 +86,37 @@ span {
     transition: all 0.5s;
     border: 1px solid #000000;
     background-color: transparent;
+}
+
+/* CONTAINER_2 */
+
+.cont2-xxl{
+    height: 500vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+.container-xl{
+    height: 450vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: brown; */
+}
+.container-xl img{
+    padding: 30px;
+}
+.heading{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.heading h1{
+    font-size: 30px;
 }
