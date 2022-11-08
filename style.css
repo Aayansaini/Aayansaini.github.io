@@ -12,7 +12,7 @@
 /* CONTAINER CSS */
 
 .container-xxl {
-    height: 220vh;
+    height: 240vh;
     display: flex;
     color: #f9f9f9;
     /* align-items: center; */
@@ -20,22 +20,24 @@
 }
 
 .container-lg {
-    height: 200vh;
-    background-color: #000000;
+    height: 270vh;
 }
 
 #hi {
-    height: 30vh;
-    margin-top: 100px;
+    height: 50vh;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .container-md {
-    height: 115vh;
+    height: 170vh;
 }
 
 .container-md img {
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
+    clip-path: circle(50% at 50% 50%);
 }
 
 .container-md p {
@@ -108,17 +110,22 @@ span {
     padding: 30px;
 }
 .heading{
-    height: 46vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
+    /* background-color: darkcyan; */
 }
 .heading h1{
     font-size: 20px;
 }
 .heading p{
     font-size: 12px;
+}
+.heading img{
+    height: 75px;
+    width: 75px;
 }
