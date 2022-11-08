@@ -15,7 +15,6 @@
     height: 240vh;
     display: flex;
     color: #f9f9f9;
-    /* align-items: center; */
     background-color: #000000;
 }
 
@@ -24,8 +23,8 @@
 }
 
 #hi {
-    height: 50vh;
-    margin-top: 25px;
+    height: 29vh;
+    margin-top: 10px;
     display: flex;
     align-items: center;
 }
