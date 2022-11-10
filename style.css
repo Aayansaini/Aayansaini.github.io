@@ -24,8 +24,10 @@
 
 #hi {
     height: 29vh;
-    margin-top: -5px;
+    margin-top: 37px;
     display: flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
