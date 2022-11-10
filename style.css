@@ -24,7 +24,7 @@
 
 #hi {
     height: 29vh;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@
     height: 50px;
     width: 150px;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: #000000;
     border-radius: 5px;
     border: 1px solid #D89216;
