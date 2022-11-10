@@ -24,7 +24,7 @@
 
 #hi {
     height: 29vh;
-    margin-top: 5px;
+    margin-top: -5px;
     display: flex;
     align-items: center;
 }
