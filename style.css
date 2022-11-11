@@ -116,6 +116,8 @@ span {
 .container-xl img {
     height: 150px;
     width: 150px;
+    margin: auto;
+    padding: 20px;
 }
 
 .heading1 {
