@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
-    color: #f9f9f9;
 }
 
 .navbar {
@@ -12,14 +11,15 @@
 /* CONTAINER CSS */
 
 .container-xxl {
-    height: 240vh;
+    height:130vh;
     display: flex;
     color: #f9f9f9;
     background-color: #000000;
 }
 
 .container-lg {
-    height: 270vh;
+    height: 130vh;
+    /* background-color: springgreen; */
 }
 
 #hi {
@@ -28,10 +28,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: chartreuse; */
 }
 
 .container-md {
-    height: 170vh;
+    height: 80vh;
+    /* background-color: crimson; */
 }
 
 .container-md img {
@@ -45,6 +47,7 @@
     margin-top: 30px;
     text-align: left;
 }
+
 .container-md h2 {
     margin-top: 30px;
     text-align: left;
@@ -56,7 +59,7 @@
     height: 50px;
     width: 150px;
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 5px;
     color: #000000;
     border-radius: 5px;
     border: 1px solid #D89216;
@@ -93,46 +96,75 @@ span {
 
 /* CONTAINER_2 */
 
-.cont2-xxl{
-    height: 500vh;
+.cont2-xxl {
+    height: 235vh;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     background-color: #000000;
 }
-.container-xl{
-    height: 450vh;
+
+.container-xl {
+    height: 200vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-color: deeppink; */
     justify-content: center;
 }
-.container-xl img{
-    padding: 30px;
+
+.container-xl img {
+    height: 150px;
+    width: 150px;
 }
-.heading{
-    height: 40vh;
+
+.heading1 {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D89216;
+}
+.heading2 {
+    height: 38vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-    /* background-color: darkcyan; */
+    /* background-color: darkolivegreen; */
 }
-.heading h1{
-    font-size: 20px;
+.heading1 h1 {
+    font-size: 25px;
+    font-weight: 900;
 }
-.heading p{
+
+.heading1 p {
     font-size: 12px;
 }
-.heading img{
+
+.heading2 h1 {
+    font-size: 20px;
+}
+
+.heading2 p {
+    font-size: 12px;
+    color: #f9f9f9;
+}
+
+.heading2 img {
     height: 75px;
     width: 75px;
 }
-#p1{
+
+#p1 {
     margin-top: -1px;
 }
-.container-md h1{
+
+.container-md h1 {
     margin-top: -10px;
 }
