@@ -11,7 +11,7 @@
 /* CONTAINER CSS */
 
 .container-xxl {
-    height:130vh;
+    height: 130vh;
     display: flex;
     color: #f9f9f9;
     background-color: #000000;
@@ -116,7 +116,6 @@ span {
 .container-xl img {
     height: 150px;
     width: 150px;
-    padding: 30px;
 }
 
 .heading1 {
@@ -129,6 +128,7 @@ span {
     justify-content: center;
     background-color: #D89216;
 }
+
 .heading2 {
     height: 38vh;
     width: 100%;
@@ -139,6 +139,7 @@ span {
     justify-content: center;
     /* background-color: darkolivegreen; */
 }
+
 .heading1 h1 {
     font-size: 25px;
     font-weight: 900;
