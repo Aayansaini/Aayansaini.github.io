@@ -121,12 +121,11 @@ span {
 }
 
 .heading1 {
-    height: 10vh;
+    height: 6vh;
     width: 100%;
     display: flex;
     text-align: center;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
     background-color: #D89216;
 }
